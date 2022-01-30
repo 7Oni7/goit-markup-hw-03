@@ -168,6 +168,11 @@ img {
 }
 
 /* -----------about--------------- */
+
+.section {
+    padding: 94px 0;
+}
+
 /* text-off */
 .visually-hidden {
     position: absolute;
@@ -200,8 +205,6 @@ img {
 }
 
 .about-subtitle {
-    padding-top: 94px;
-
     font-weight: 700;
     font-size: 14px;
     line-height: calc(16 / 14);
@@ -223,7 +226,8 @@ img {
 
 /* -------------function-------------- */
 
-.function-conteiner {
+.function {
+    padding: top 0;
 }
 .function-title {
     font-size: 36px;
@@ -235,9 +239,6 @@ img {
 }
 .function-list {
     display: flex;
-    width: 370px;
-    height: auto;
-    padding-bottom: 94px;
 }
 .function-item + .function-item {
     margin-left: 30px;
@@ -247,10 +248,6 @@ img {
     background-color: #f5f4fa;
 }
 
-.staff-conteiner {
-    flex-direction: column;
-    padding-top: 94px;
-}
 .staff-list {
     display: flex;
 }
@@ -266,10 +263,6 @@ img {
     text-align: center;
     color: var(--prymary-text-color);
     margin-bottom: 50px;
-}
-
-.staff-item {
-    margin-bottom: 64px;
 }
 
 .staff-master-content {
@@ -299,11 +292,10 @@ img {
 
 /* -----------footer------------- */
 .footer {
+    padding: 60px 0;
     background-color: #2f303a;
 }
 .footer-conteiner {
-    flex-direction: column;
-    padding-top: 60px;
 }
 .footer-logo {
     font-family: 'Raleway', sans-serif;
@@ -357,17 +349,13 @@ img {
 /* -----------PEGE2-portfolio------------ */
 
 /* -----------filter-portfolio------------- */
-.filter-portfolio {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
 
 .filter-list {
     display: flex;
 
     justify-content: center;
 
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .filter-item + .filter-item {
@@ -420,9 +408,6 @@ img {
     padding-bottom: 94px;
 }
 
-.contei-hero {
-    display: flex;
-}
 .hero-list-two {
     display: flex;
     margin-left: -30px;
@@ -430,12 +415,13 @@ img {
     flex-wrap: wrap;
 }
 .hero-item-two {
-    width: calc(100% / 9 -30px);
+    width: calc(100% / 3 - 30px);
     margin-left: 30px;
     margin-bottom: 30px;
 }
 
 .hero-text-box {
+    padding-top: 20px;
     padding-left: 24px;
     padding-right: 24px;
     padding-bottom: 20px;
@@ -446,7 +432,9 @@ img {
 }
 
 .hero-title-two {
-    font-family: 'Roboto' sans-serif;
+    margin: 4px 0;
+
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: calc(36 / 18);
@@ -454,7 +442,7 @@ img {
     color: var(--prymary-text-color);
 }
 .hero-text-two {
-    font-family: 'Roboto' sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: calc(30 / 16);
